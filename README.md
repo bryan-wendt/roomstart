@@ -4,6 +4,7 @@ Script to configure folders and start a scan on a server
 ## Usage
 `./room_start.sh`
 
+
 ## Options
 -h|--help 					show brief help
 -p|--platform				specify a platform
