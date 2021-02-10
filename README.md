@@ -5,8 +5,8 @@ Script to configure folders and start a scan on a server
 [TryHackMe Profile](https://tryhackme.com/p/beedubz)
 
 Inspiration:  
-   https://twitter.com/Theonly_Hoff  
-   https://github.com/evildrummer/RoomPrepper  
+&nbsp;&nbsp;&nbsp;https://twitter.com/Theonly_Hoff  
+&nbsp;&nbsp;&nbsp;https://github.com/evildrummer/RoomPrepper  
 
 ## Usage
 `./room_start.sh`  
