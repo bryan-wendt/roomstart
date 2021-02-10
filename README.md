@@ -5,7 +5,14 @@ Script to configure folders and start a scan on a server
 [TryHackMe Profile](https://tryhackme.com/p/beedubz)
 
 ## Usage
-`./room_start.sh`
+`./room_start.sh`  
+
+Script assumes you have nmap or rustscan installed.  
+Current `rustscan` command is installed via docker. Feel free to change command if needed.
+
+Scanning command variables:  
+`RUST_CMD="sudo docker run -it --rm --name rustscan rustscan/rustscan -a $IP -- -A -sC -sV"`  
+`NMAP_CMD="nmap -oN $PLAT_DIR/$NAME/nmap.txt -T4 -A -sC -sV -p- $IP"`  
 
 ## Options
 ```  
