@@ -1,7 +1,7 @@
 # RoomStart
 Script to configure folders and start a scan on a server
 
-[My Blog](https://bryanwendt.wordpress.com)
+[My Blog](https://bryanwendt.wordpress.com)  
 [TryHackMe Profile](https://tryhackme.com/p/beedubz)
 
 ## Usage
