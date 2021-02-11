@@ -157,15 +157,18 @@ f_FolderCreation(){
 		echo -e "   ${GRE}Platform directory exists"
 	fi
 
-     if [ ! -d $PLAT_DIR/$NAME ]; then
+     if [ ! -d $PLAT_DIR/rooms/$NAME ]; then
+          if [ ! -d $PLAT_DIR/rooms ]; then
+               mkdir $PLAT_DIR/rooms
+          fi
           echo -e "   ${GRE}Creating room/box name directory"
-          mkdir $PLAT_DIR/$NAME
+          mkdir $PLAT_DIR/rooms/$NAME
      else
           echo -e "   ${GRE}Room/Box name directory exists"
      fi
 
      echo ""
-     echo -e "   ${GRE}Folder Location: ${NC}$PLAT_DIR/$NAME"
+     echo -e "   ${GRE}Folder Location: ${NC}$PLAT_DIR/rooms/$NAME"
      echo ""
      sleep 3
 }
