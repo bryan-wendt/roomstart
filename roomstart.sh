@@ -126,6 +126,8 @@ f_Ping(){
      if [ -z $IP ]; then
           :
      else
+     	  UP='1 received'
+	  
           echo -e "${YEL}##################"
           echo -e "###### PING ######"
           echo -e "##################${NC}"
