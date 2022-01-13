@@ -179,7 +179,7 @@ f_ScannerFunc(){
 
      ##### Scanning commands - Change if needed #####
      RUST_CMD="sudo docker run -it --rm --name rustscan rustscan/rustscan -a $IP -- -A -sC -sV"
-     NMAP_CMD="nmap -oN $PLAT_DIR/$NAME/nmap.txt -T4 -A -sC -sV -p- $IP"
+     NMAP_CMD="nmap -oN $PLAT_DIR/rooms/$NAME/nmap.txt -T4 -A -sC -sV -p- $IP"
 
      echo -e "${YEL}###################"
      echo -e "##### SCANNER #####"
